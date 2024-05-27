@@ -1,0 +1,6 @@
+framework module locationAppSDK {
+  umbrella header "locationAppSDK.h"
+  export *
+
+  module * { export * }
+}
