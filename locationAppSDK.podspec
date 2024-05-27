@@ -2,8 +2,8 @@ Pod::Spec.new do |spec|
 
   spec.name         = "locationAppSDK"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of LocationSDK."
-  spec.description  = "locationApp hahahahah"
+  spec.summary      = "Para localizar pessoas."
+  spec.description  = "Ferramenta usada para localizar seu celular com latitude e longitude"
   spec.homepage     = "https://github.com/maxFider67/locationApp"
   spec.license      = "MIT"
   spec.author       = { "Gabriel Caldeira" => "gabriel.caldeira@dtidigital.com.br" }
