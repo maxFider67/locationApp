@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/locationAppSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		oRM+Nhfx7mn0RnC+ehG7fKZv2RA=
+		irtK1U8Q4NGao5ZDXLLYpWQ8W6w=
 		</data>
 		<key>Modules/locationAppSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		o133tuVZW3zlnSbCptn8F2/LlaU=
+		MpvukeA0FUDY6BiahMf6Y/k0Zbo=
 		</data>
 		<key>Modules/locationAppSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/locationAppSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		o133tuVZW3zlnSbCptn8F2/LlaU=
+		MpvukeA0FUDY6BiahMf6Y/k0Zbo=
 		</data>
 		<key>Modules/locationAppSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		6ZyK3gbL6lBEimfw2wCqp9xcDrk=
+		sJZlEX0B55N7AdT2QqtqBH6eM80=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,14 +50,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4hRy/gAxsVFvYZyN9xxDcVof1+N0LxPYASRWm1PHczk=
+			XLX2ZhZlVn2zyUh0Aa4Gbsi3xgPltq4Unet2bnqov+E=
 			</data>
 		</dict>
 		<key>Modules/locationAppSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wql5bq0cIS8AwFpsISGNcYRuzPF4q+A51luOY/A4PYc=
+			EaqBk15qga2/Vzn1y6zkSTPGsTQaWqpncWO4a6i5Mxk=
 			</data>
 		</dict>
 		<key>Modules/locationAppSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -71,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wql5bq0cIS8AwFpsISGNcYRuzPF4q+A51luOY/A4PYc=
+			EaqBk15qga2/Vzn1y6zkSTPGsTQaWqpncWO4a6i5Mxk=
 			</data>
 		</dict>
 		<key>Modules/locationAppSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/y9nr4sg0ZdwNGLRko77aVAnYLZW6Wn3fV2FP4eW+PQ=
+			AfQb/SJKF8ehdkl4izpiO1fCWzF+M9c+8H0timpyoBo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

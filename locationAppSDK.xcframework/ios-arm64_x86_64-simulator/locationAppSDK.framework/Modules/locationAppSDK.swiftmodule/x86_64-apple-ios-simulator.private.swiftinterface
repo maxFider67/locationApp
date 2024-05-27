@@ -9,6 +9,9 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 @_exported import locationAppSDK
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GeoLocationManager : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
+  public static let shared: locationAppSDK.GeoLocationManager
+  public func getCurrentLocation(completion: @escaping (CoreLocation.CLLocation?, (any Swift.Error)?) -> Swift.Void)
+  public func stopMonitoringLocationChanges()
   @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
   @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: any Swift.Error)
   @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)

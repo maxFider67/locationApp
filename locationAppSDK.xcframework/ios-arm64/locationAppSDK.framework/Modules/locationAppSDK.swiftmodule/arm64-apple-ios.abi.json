@@ -27,6 +27,144 @@
         "printedName": "GeoLocationManager",
         "children": [
           {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GeoLocationManager",
+                "printedName": "locationAppSDK.GeoLocationManager",
+                "usr": "c:@M@locationAppSDK@objc(cs)GeoLocationManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14locationAppSDK18GeoLocationManagerC6sharedACvpZ",
+            "mangledName": "$s14locationAppSDK18GeoLocationManagerC6sharedACvpZ",
+            "moduleName": "locationAppSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GeoLocationManager",
+                    "printedName": "locationAppSDK.GeoLocationManager",
+                    "usr": "c:@M@locationAppSDK@objc(cs)GeoLocationManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14locationAppSDK18GeoLocationManagerC6sharedACvgZ",
+                "mangledName": "$s14locationAppSDK18GeoLocationManagerC6sharedACvgZ",
+                "moduleName": "locationAppSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getCurrentLocation",
+            "printedName": "getCurrentLocation(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreLocation.CLLocation?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CoreLocation.CLLocation?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CoreLocation.CLLocation?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CLLocation",
+                            "printedName": "CoreLocation.CLLocation",
+                            "usr": "c:objc(cs)CLLocation"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14locationAppSDK18GeoLocationManagerC010getCurrentE010completionyySo10CLLocationCSg_s5Error_pSgtc_tF",
+            "mangledName": "$s14locationAppSDK18GeoLocationManagerC010getCurrentE010completionyySo10CLLocationCSg_s5Error_pSgtc_tF",
+            "moduleName": "locationAppSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopMonitoringLocationChanges",
+            "printedName": "stopMonitoringLocationChanges()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14locationAppSDK18GeoLocationManagerC014stopMonitoringE7ChangesyyF",
+            "mangledName": "$s14locationAppSDK18GeoLocationManagerC014stopMonitoringE7ChangesyyF",
+            "moduleName": "locationAppSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Function",
             "name": "locationManager",
             "printedName": "locationManager(_:didUpdateLocations:)",
