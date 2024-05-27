@@ -8,3 +8,9 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_exported import locationAppSDK
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GeoLocationManager : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: any Swift.Error)
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
+  @objc deinit
+}

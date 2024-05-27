@@ -20,6 +20,188 @@
         "printedName": "CoreLocation",
         "declKind": "Import",
         "moduleName": "locationAppSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GeoLocationManager",
+        "printedName": "GeoLocationManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didUpdateLocations:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreLocation.CLLocation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocation",
+                    "printedName": "CoreLocation.CLLocation",
+                    "usr": "c:objc(cs)CLLocation"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@locationAppSDK@objc(cs)GeoLocationManager(im)locationManager:didUpdateLocations:",
+            "mangledName": "$s14locationAppSDK18GeoLocationManagerC0aF0_18didUpdateLocationsySo010CLLocationF0C_SaySo0J0CGtF",
+            "moduleName": "locationAppSDK",
+            "objc_name": "locationManager:didUpdateLocations:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didFailWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@locationAppSDK@objc(cs)GeoLocationManager(im)locationManager:didFailWithError:",
+            "mangledName": "$s14locationAppSDK18GeoLocationManagerC0aF0_16didFailWithErrorySo010CLLocationF0C_s0J0_ptF",
+            "moduleName": "locationAppSDK",
+            "objc_name": "locationManager:didFailWithError:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didChangeAuthorization:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLAuthorizationStatus",
+                "printedName": "CoreLocation.CLAuthorizationStatus",
+                "usr": "c:@E@CLAuthorizationStatus"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@locationAppSDK@objc(cs)GeoLocationManager(im)locationManager:didChangeAuthorizationStatus:",
+            "mangledName": "$s14locationAppSDK18GeoLocationManagerC0aF0_22didChangeAuthorizationySo010CLLocationF0C_So21CLAuthorizationStatusVtF",
+            "moduleName": "locationAppSDK",
+            "objc_name": "locationManager:didChangeAuthorizationStatus:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@locationAppSDK@objc(cs)GeoLocationManager",
+        "mangledName": "$s14locationAppSDK18GeoLocationManagerC",
+        "moduleName": "locationAppSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
